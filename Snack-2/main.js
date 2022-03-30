@@ -19,4 +19,6 @@ if (word1_lungezza > word2_lungezza) {
 } else if (word2_lungezza > word1_lungezza) {
     console.log(word1_lungezza);
     console.log(word2_lungezza);
-} 
+} else if (typeof word1_lungezza  == 'number' && typeof word2_lungezza == 'number') {
+    console.log('Attenzione: inserire solo dati numerici');
+}
