@@ -6,7 +6,7 @@ const first_number = parseInt(prompt('Inserisci primo numero'))
 const second_number = parseInt(prompt('Inserisci secondo numero'))
 
 if (first_number > second_number) {
-    console.log(firs_number);
+    console.log(first_number);
 } else if (second_number > first_number) {
     console.log(second_number);
 }
