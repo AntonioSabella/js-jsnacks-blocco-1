@@ -2,13 +2,16 @@
 Il programma stampa la somma di tutti i numeri inseriti.
  */
 
+let somma;
+let userNumber;
+somma = 0;
 
 for (let i = 0; i < 10; i++) {
-    let ask_number = parseInt(prompt('Inserisci un numero'));
-    console.log(ask_number); 
-    let somma = ask_number + ask_number + ask_number + ask_number + ask_number + ask_number + ask_number + ask_number + ask_number + ask_number;
-    console.log(somma);
+    userNumber = parseInt(prompt("Inserisci un numero"));
+    somma = somma + userNumber
 }
+
+console.log(somma);
 
 
 
