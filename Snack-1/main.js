@@ -9,4 +9,6 @@ if (first_number > second_number) {
     console.log(first_number);
 } else if (second_number > first_number) {
     console.log(second_number);
+} else {
+    console.log("I due numeri sono uguali");
 }
